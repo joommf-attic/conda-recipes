@@ -1,0 +1,37 @@
+{% set version = "0.7.1" %}
+
+package:
+  name: discretisedfield
+  version: {{ version }}
+
+source:
+  fn: discretisedfield-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/bb/67/107467a8d1af830500eca9f3213df1161fb8d61dcf8f78c7d2d93e093b96/discretisedfield-0.7.1.tar.gz
+  sha256: dac058a566511d087e3c17530f101e37fc75d20800c1284d71c7468f92cf1ff0
+
+build:
+  number: 0
+  script: pip install --no-deps .
+
+requirements:
+  build:
+    - python
+    - pip
+  run:
+    - python
+    - joommfutil
+    - matplotlib
+    - pyvtk
+
+
+test:
+  imports:
+    - discretisedfield
+
+about:
+  home: http://joommf.github.io/
+  license: BSD 3-clause
+  summary: analyzing and manipulating discretised fields
+  # license_file: LICENSE
+
+

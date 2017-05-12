@@ -1,0 +1,39 @@
+{% set version = "0.7.1" %}
+
+package:
+  name: oommfc
+  version: {{ version }}
+
+source:
+  fn: oommfc-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/7b/22/9af7a659b531734762fd8d95ed2493f91cf4e664f1a9fb03b351e04e9316/oommfc-0.7.1.tar.gz
+  sha256: 054590fe998e0ea307edab9b49f814977ca78dc75ebe6193238898bb773fb34d
+
+build:
+  number: 0
+  script: pip install --no-deps .
+
+requirements:
+  build:
+    - python
+    - pip
+  run:
+    - python
+    - sarge
+    - scipy
+    - oommfodt
+    - micromagneticmodel
+    - discretisedfield
+    - oommf
+
+test:
+  imports:
+    - oommfc
+
+about:
+  home: http://joommf.github.io/
+  license: BSD 3-clause
+  summary: OOMMF calculator
+  # license_file: LICENSE
+
+

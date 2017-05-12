@@ -1,0 +1,34 @@
+{% set version = "0.7.1" %}
+
+package:
+  name: micromagneticmodel
+  version: {{ version }}
+
+source:
+  fn: micromagneticmodel-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/52/46/bb681ed4fae2bb3d81cd01821cb1a7dc2408662f43e168b12ad5e826b44b/micromagneticmodel-0.7.1.tar.gz
+  sha256: 767c52342c07b78aff613220bd56b2ee58e95660927451dee768738039c80c29
+
+build:
+  number: 0
+  script: pip install --no-deps .
+
+requirements:
+  build:
+    - python
+    - pip
+  run:
+    - python
+    - discretisedfield
+
+test:
+  imports:
+    - micromagneticmodel
+
+about:
+  home: http://joommf.github.io/
+  license: BSD 3-clause
+  summary: A Python-based micromagnetic model
+  # license_file: LICENSE
+
+
