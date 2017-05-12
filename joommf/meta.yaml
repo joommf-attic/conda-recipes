@@ -1,0 +1,17 @@
+package:
+  name: joommf
+  version: 0.7.1
+
+requirements:
+  run:
+    - python
+    - oommfc
+    - jupyter
+
+about:
+  home: http://joommf.github.io/
+  license: BSD 3-clause
+  summary: JOOMMF package consisting of OOMMF calculator and Jupyter notebook
+  # license_file: LICENSE
+
+
