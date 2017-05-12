@@ -1,6 +1,6 @@
 package:
   name: oommf
-  version: "12a6"
+  version: "12b0_20160930b1"
 
 source:
   git_url: https://github.com/fangohr/oommf
