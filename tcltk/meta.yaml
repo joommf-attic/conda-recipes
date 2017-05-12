@@ -1,0 +1,18 @@
+package:
+  name: tk
+  version: "8.5.18+maxalbert.0"
+
+build:
+  detect_binary_files_with_prefix: true
+  script_env:
+    - DISPLAY
+
+test:
+  requires:
+    - python
+  commands:
+    - python -c "import turtle; turtle.forward(100)"
+
+about:
+  home: http://www.tcl.tk/
+  license: BSD-style
