@@ -1,0 +1,17 @@
+digraph graphname {
+     graph [fontname = "inconsolata"];
+     node [fontname = "inconsolata"];
+     edge [fontname = "inconsolata"];
+     oommf [shape=box];
+     oommfc -> oommf;
+     oommfc -> micromagneticmodel;
+     oommfc -> discretisedfield;
+     oommfc -> oommfodt;
+     oommfdata -> oommfodt;
+     oommfdata -> discretisedfield;
+     micromagneticmodel -> discretisedfield;
+     discretisedfield -> joommfutil;
+ }
+
+
+
