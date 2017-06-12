@@ -1,0 +1,22 @@
+#+TITLE: Bringing JOOMMF and all its packages to conda-forge
+
+* Dependencies
+
+Are visible in [file:dependencyplot.pdf].
+
+* Conda recipes
+
+Are available at http://github.com/joommf/conda-recipes/
+
+* Moving packages to conda forge [6/10]
+
+- [ ] joommf
+- [X] discretisedfield -> https://github.com/conda-forge/discretisedfield-feedstock
+- [X] joommfutil -> https://github.com/conda-forge/joommfutil-feedstock
+- [ ] micromagneticmodel
+- [X] oommf -> https://github.com/conda-forge/oommf-feedstock
+- [ ] oommfc
+- [ ] oommfdata
+- [X] oommfodt -> https://github.com/conda-forge/oommfodt-feedstock
+- [X] pyvtk -> https://github.com/conda-forge/pyvtk-feedstock
+- [X] sarge -> https://github.com/conda-forge/sarge-feedstock
