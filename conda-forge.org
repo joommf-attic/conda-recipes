@@ -13,7 +13,7 @@ Are available at http://github.com/joommf/conda-recipes/
 - [ ] joommf
 - [X] discretisedfield -> https://github.com/conda-forge/discretisedfield-feedstock
 - [X] joommfutil -> https://github.com/conda-forge/joommfutil-feedstock
-- [ ] micromagneticmodel
+- [ ] micromagneticmodel -> in progress (https://github.com/conda-forge/staged-recipes/pull/3120)
 - [X] oommf -> https://github.com/conda-forge/oommf-feedstock
 - [ ] oommfc
 - [ ] oommfdata
