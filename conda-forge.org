@@ -8,7 +8,7 @@ Are visible in [file:dependencyplot.pdf]
 
 Are available at http://github.com/joommf/conda-recipes/
 
-* Moving packages to conda forge [6/10]
+* Moving packages to conda forge [6/9]
 
 - [ ] joommf
 - [X] discretisedfield -> https://github.com/conda-forge/discretisedfield-feedstock
