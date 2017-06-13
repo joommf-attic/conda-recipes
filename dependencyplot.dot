@@ -7,8 +7,6 @@ digraph graphname {
      oommfc -> micromagneticmodel;
      oommfc -> discretisedfield;
      oommfc -> oommfodt;
-     oommfdata -> oommfodt;
-     oommfdata -> discretisedfield;
      micromagneticmodel -> discretisedfield;
      discretisedfield -> joommfutil;
  }
