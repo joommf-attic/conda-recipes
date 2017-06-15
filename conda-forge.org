@@ -8,14 +8,14 @@ Are visible in [file:dependencyplot.pdf]
 
 Are available at http://github.com/joommf/conda-recipes/
 
-* Moving packages to conda forge [6/9]
+* Moving packages to conda forge [7/9]
 
-- [ ] joommf
 - [X] discretisedfield -> https://github.com/conda-forge/discretisedfield-feedstock
 - [X] joommfutil -> https://github.com/conda-forge/joommfutil-feedstock
-- [ ] micromagneticmodel -> in progress (https://github.com/conda-forge/staged-recipes/pull/3120); waiting for approval
+- [X] micromagneticmodel -> https://github.com/conda-forge/micromagneticmodel-feedstock
 - [X] oommf -> https://github.com/conda-forge/oommf-feedstock
-- [ ] oommfc
 - [X] oommfodt -> https://github.com/conda-forge/oommfodt-feedstock
 - [X] pyvtk -> https://github.com/conda-forge/pyvtk-feedstock
 - [X] sarge -> https://github.com/conda-forge/sarge-feedstock
+- [ ] oommfc -> in progress: https://github.com/conda-forge/staged-recipes/pull/3129
+- [ ] joommf
