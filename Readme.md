@@ -1,3 +1,13 @@
+# conda-forge
+
+We have integrated our conda-build recipes into the conda-forge framework. Thus, the recipies in this repository are mostly outdated. A list of the new locations is available in [conda-forge.org](conda-forge.org).
+
+
+-------------------
+
+The instructions below are from before we migrated the scripts to conda-forge.
+
+
 # Build conda package
 
     conda-build oommfc
