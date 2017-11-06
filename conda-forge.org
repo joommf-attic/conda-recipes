@@ -17,5 +17,5 @@ Are available at http://github.com/joommf/conda-recipes/
 - [X] oommfodt -> https://github.com/conda-forge/oommfodt-feedstock
 - [X] pyvtk -> https://github.com/conda-forge/pyvtk-feedstock
 - [X] sarge -> https://github.com/conda-forge/sarge-feedstock
-- [ ] oommfc -> in progress: https://github.com/conda-forge/staged-recipes/pull/3129
+- [X] oommfc -> https://github.com/conda-forge/oommfc-feedstock
 - [ ] joommf
